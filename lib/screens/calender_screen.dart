@@ -282,7 +282,7 @@ class _CalendarScreenState extends State<CalendarScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final DateTime now = DateTime.now();
+    // final DateTime now = DateTime.now();
     final DateTime firstDay = DateTime(2000, 1, 1);
     final DateTime lastDay = DateTime(2024, 12, 31);
 
